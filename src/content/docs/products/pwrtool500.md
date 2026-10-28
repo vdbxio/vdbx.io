@@ -7,7 +7,7 @@ vdbx:
   type: product
   id: VBX2350
   status: shipping
-  status_note: Est Late October to Backers
+  status_note: Shipping within a week
   section: products
   msrp: 149.95
   tagline: 12-48v / 500A Smart Shunt for Home Assistant based on ESPHome
@@ -17,6 +17,7 @@ vdbx:
   links:
     - url: https://www.crowdsupply.com/voidbox-industries/pwrtool-500
     - url: https://github.com/vdbxio/esphome-configs
+    - url: https://github.com/vdbxio/dbus-pwrtool
   files:
     - url: /attachments/2024.10-pwrtool-manual.pdf
       name: 2024.10-pwrtool-manual.pdf
@@ -92,6 +93,12 @@ The PwrTool 500 is open source and files are provided under CC4.0-BY-SA above.
 We are building out a modular set of configuration files for our FLIP_C3 platform and the products it powers. They are currently available on github here:
 
 https://github.com/vdbxio/esphome-configs
+
+#### Victron Venus OS (prototype)
+
+dbus-pwrtool shows PwrTool 500s on a Victron GX or a Raspberry Pi running Venus OS, as a battery monitor or as measured DC loads. It's an early prototype; work is tracked in its GitHub issues:
+
+https://github.com/vdbxio/dbus-pwrtool
 
 ## Extra Features
 
