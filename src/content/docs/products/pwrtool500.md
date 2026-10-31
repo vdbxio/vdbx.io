@@ -7,7 +7,7 @@ vdbx:
   type: product
   id: VBX2350
   status: shipping
-  status_note: Shipping within a week
+  status_note: Now Shipping! Available on Crowd Supply
   section: products
   msrp: 149.95
   tagline: 12-48v / 500A Smart Shunt for Home Assistant based on ESPHome
